@@ -1,5 +1,5 @@
 # Vagrant Box MediaTemple Grid
-*A [Vagrant Box](https://app.vagrantup.com/darlanrod/boxes/mediatemple-grid) that mimics the [MediaTemple Shared Grid server](http://bit.ly/2ClGXLh)*
+*A [Vagrant Box](https://app.vagrantup.com/darlanrod/boxes/mediatemple-grid) that mimics the [MediaTemple shared Grid server](http://bit.ly/2ClGXLh)*
 
 ## How to use
 ### Requirements:
@@ -17,6 +17,7 @@ Vagrant.configure("2") do |config|
   config.vm.box = "darlanrod/mediatemple-grid"
 end
 ```
+Check out some [extra information](extra.md) on usage.
 
 ## Technical specifications
 Item | Mediatemple | Box
